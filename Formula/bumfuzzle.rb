@@ -3,7 +3,7 @@ class Bumfuzzle < Formula
   homepage "https://github.com/arc-com/bumfuzzle"
   url "https://github.com/arc-com/bumfuzzle/archive/refs/tags/v1.2.4.tar.gz"
   # populated by arc-com/bumfuzzle's scripts/release/release-homebrew.sh
-  sha256 "67197e1657201ad69e02fda3bf94c6749076b88d1b8bd12ca95167166ebd2663"
+  sha256 "608646004a94b5b8e945f5e1ad9fdcf2d4bb6c5a0cd8085a2e5147a63d588771"
   license "MIT"
 
   depends_on "yq"
