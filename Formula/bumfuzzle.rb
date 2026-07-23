@@ -1,9 +1,9 @@
 class Bumfuzzle < Formula
   desc "Config-driven guardrails and scaffolding for AI coding agents"
   homepage "https://github.com/arc-com/bumfuzzle"
-  url "https://github.com/arc-com/bumfuzzle/archive/refs/tags/v1.7.0.tar.gz"
+  url "https://github.com/arc-com/bumfuzzle/archive/refs/tags/v1.7.1.tar.gz"
   # populated by arc-com/bumfuzzle's scripts/release/release-homebrew.sh
-  sha256 "73db17ff686e01816068c19c8d96cc19f815bea56f755858989cfbcbb23301d5"
+  sha256 "fbacf6389024475aa6434f718cb571bbcd95ad01b1975173e798fec2e1bb034e"
   license "MIT"
 
   depends_on "yq"
