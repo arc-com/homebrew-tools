@@ -10,7 +10,7 @@ class Bumfuzzle < Formula
   depends_on "python@3.12"
 
   def install
-    libexec.install "bumfuzzle-template.yml", "index.html", "scripts", "skills", "VERSION"
+    libexec.install "bumfuzzle-template.yml", "schema.yml", "index.html", "scripts", "skills", "VERSION"
     bin.install_symlink libexec/"scripts/bumfuzzle.sh" => "bumfuzzle"
     bin.install_symlink libexec/"scripts/bumfuzzle.sh" => "bf"
   end
